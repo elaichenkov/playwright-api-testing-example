@@ -1,1 +1,0 @@
-# playwright-api-testing-example

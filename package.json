@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node server/index.js",
-    "test": "npx playwright test",
-    "posttest": "cp playwright-report/index.html docs/index.html"
+    "test": "npx playwright test"
   },
   "repository": {
     "type": "git",

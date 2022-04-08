@@ -39,7 +39,8 @@ jobs:
         git config --global user.email 'elaichenkov@gmail.com'
         git checkout gh-pages
         git pull
-        git add playwright-report/index.html
+        mv playwright-report/index.html ./index.html
+        git add ./index.html
         git commit -m "update playwright API tests report"
         git push origin gh-pages
         git checkout main

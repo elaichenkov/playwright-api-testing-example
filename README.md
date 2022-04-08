@@ -1,6 +1,15 @@
-# playwright-api-testing-example
+<div align="center">
+<h1 align="center">An example of how to set up and run API tests with Playwright and odottaa</h1>
+  <img
+    height="440"
+    width="660"
+    alt="sloth"
+    src="./assets/playwright-odottaa.png"
+  />
+</div>
 
-![playwright and odottaa](assets/playwright-odottaa.png)
+---
+[![test](https://github.com/elaichenkov/playwright-api-testing-example/actions/workflows/playwright.yml/badge.svg)](https://github.com/elaichenkov/playwright-api-testing-example/actions/workflows/playwright.yml)
 
 Read my article about [API testing with Playwright & odottaa](https://medium.com/).
 

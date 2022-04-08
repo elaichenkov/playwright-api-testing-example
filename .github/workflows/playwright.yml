@@ -2,9 +2,9 @@ name: Playwright API Tests
 
 on:
   push:
-    branches: [ main ]
+    branches: [ main, gh-pages ]
   pull_request:
-    branches: [ main ]
+    branches: [ main, gh-pages ]
 jobs:
   test:
     timeout-minutes: 5
@@ -34,5 +34,5 @@ jobs:
     - name: Deploy report 🚀
       uses: JamesIves/github-pages-deploy-action@v4.3.0
       with:
-        branch: main
+        branch: gh-pages
         folder: docs

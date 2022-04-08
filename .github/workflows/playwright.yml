@@ -31,8 +31,11 @@ jobs:
         name: playwright-results
         path: playwright-report
 
-    - name: Deploy report 🚀
-      uses: JamesIves/github-pages-deploy-action@v4.3.0
-      with:
-        branch: gh-pages
-        folder: docs
+    - name: Commit report to gh-pages branch
+      run: |
+        git checkout gh-pages
+        git pull
+        git add playwright-report/index.html
+        git commit -m "update playwright API tests report"
+        git push origin gh-pages
+        git checkout main

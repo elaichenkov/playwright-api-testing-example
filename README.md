@@ -11,7 +11,7 @@
 ---
 [![test](https://github.com/elaichenkov/playwright-api-testing-example/actions/workflows/playwright.yml/badge.svg)](https://github.com/elaichenkov/playwright-api-testing-example/actions/workflows/playwright.yml)
 
-Read my article about [API testing with Playwright & odottaa](https://medium.com/).
+Read my article about [API testing with Playwright & odottaa - !!! Link will be added soon !!!](https://medium.com/).
 
 Check out the [HTML report](https://elaichenkov.github.io/playwright-api-testing-example) that was published on GitHub pages.
 

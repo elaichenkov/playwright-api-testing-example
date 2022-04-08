@@ -1,5 +1,5 @@
 <div align="center">
-<h1 align="center">An example of how to set up and run API tests with Playwright and odottaa</h1>
+<h1 align="center">An example of how to set up and run API tests with <a href="https://playwright.dev/">Playwright</a> and <a href="https://github.com/elaichenkov/odottaa">odottaa</a></h1>
   <img
     height="440"
     width="660"

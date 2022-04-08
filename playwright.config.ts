@@ -4,6 +4,7 @@ import playwrightApiMatchers from 'odottaa';
 expect.extend(playwrightApiMatchers);
 
 const config: PlaywrightTestConfig = {
+  reporter: [['html', { open: 'never' }]],
   globalSetup: './global-setup',
   webServer: {
     command: 'npm start',

@@ -34,5 +34,5 @@ jobs:
     - name: Deploy report 🚀
       uses: JamesIves/github-pages-deploy-action@v4.3.0
       with:
-        branch: main # The branch the action should deploy to.
-        folder: playwright-report # The folder the action should deploy.
+        branch: main
+        folder: docs

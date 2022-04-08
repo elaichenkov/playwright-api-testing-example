@@ -105,3 +105,6 @@ dist
 
 # Playwright
 playwright-report/
+
+# VSCode
+.DS_Store

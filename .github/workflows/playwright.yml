@@ -33,6 +33,8 @@ jobs:
 
     - name: Commit report to gh-pages branch
       run: |
+        git config --global user.name 'Yevhen Laichenkov'
+        git config --global user.email 'elaichenkov@gmail.com'
         git checkout gh-pages
         git pull
         git add playwright-report/index.html

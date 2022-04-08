@@ -30,3 +30,9 @@ jobs:
       with:
         name: playwright-results
         path: playwright-report
+
+    - name: Deploy report 🚀
+      uses: JamesIves/github-pages-deploy-action@v4.3.0
+      with:
+        branch: main # The branch the action should deploy to.
+        folder: ./ # The folder the action should deploy.

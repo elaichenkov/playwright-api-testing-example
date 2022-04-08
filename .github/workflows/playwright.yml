@@ -30,6 +30,3 @@ jobs:
       with:
         name: playwright-results
         path: playwright-report
-        
-    - name: Unzip test results
-      run: ls -la && unzip playwright-results.zip && ls -la

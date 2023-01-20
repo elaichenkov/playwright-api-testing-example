@@ -21,7 +21,7 @@
   "homepage": "https://github.com/elaichenkov/playwright-api-testing-example#readme",
   "devDependencies": {
     "@playwright/test": "^1.26.1",
-    "json-server": "^0.17.0",
+    "json-server": "^0.17.1",
     "odottaa": "^1.1.1"
   }
 }
